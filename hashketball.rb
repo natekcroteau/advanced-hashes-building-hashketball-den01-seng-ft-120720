@@ -1,6 +1,7 @@
 require 'pry'
 
 def game_hash 
+  
   nds = {}
   nds[:home] = {}
   nds[:away] = {}
@@ -13,15 +14,15 @@ def game_hash
   nds[:away][:colors] = []
   nds[:away][:players] = {}
   
-  nds[:home][:players][:player_name] = ""
-  nds[:home][:players][:number] = 
-  nds[:home][:players][:shoe] = 
-  nds[:home][:players][:points] = 
-  nds[:home][:players][:rebounds] = 
-  nds[:home][:players][:assists] = 
-  nds[:home][:players][:steals] = 
-  nds[:home][:players][:blocks] = 
-  nds[:home][:players][:slam_dunks] = 
+  nds[:home][:players][:player_name] = "Alan Anderson"
+  nds[:home][:players][:number] = 0 
+  nds[:home][:players][:shoe] = 16
+  nds[:home][:players][:points] = 22
+  nds[:home][:players][:rebounds] = 12
+  nds[:home][:players][:assists] = 12
+  nds[:home][:players][:steals] = 3
+  nds[:home][:players][:blocks] = 1 
+  nds[:home][:players][:slam_dunks] = 1 
   
   
   #binding.pry  
