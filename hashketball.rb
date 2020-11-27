@@ -14,7 +14,8 @@ def game_hash
   nds[:away][:colors] = []
   nds[:away][:players] = {}
   
-  nds[:home][:players][:player_name] = "Alan Anderson"
+  nds[:home][:players][:player_name][0]
+  nds[:home][:players][:player_name][0] = "Alan Anderson"
   nds[:home][:players][:number] = 0 
   nds[:home][:players][:shoe] = 16
   nds[:home][:players][:points] = 22
@@ -24,7 +25,8 @@ def game_hash
   nds[:home][:players][:blocks] = 1 
   nds[:home][:players][:slam_dunks] = 1 
   
-  nds[:home][:players][:player_name] = "Reggie Evans"
+  nds[:home][:players][:player_name][1]
+  nds[:home][:players][:player_name][1] = "Reggie Evans"
   nds[:home][:players][:number] = 30 
   nds[:home][:players][:shoe] = 14
   nds[:home][:players][:points] = 12
@@ -34,6 +36,7 @@ def game_hash
   nds[:home][:players][:blocks] = 12 
   nds[:home][:players][:slam_dunks] = 7 
   
+  nds[:home][:players][:player_name][0]
   nds[:home][:players][:player_name] = "Brook Lopez"
   nds[:home][:players][:number] = 11 
   nds[:home][:players][:shoe] = 17
