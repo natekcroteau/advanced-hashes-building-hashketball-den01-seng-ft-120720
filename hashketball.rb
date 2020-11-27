@@ -1,1 +1,5 @@
-# Write your code here!
+def game_hash 
+  nds = {}
+  nds[:home]
+  nds[:away]
+end
