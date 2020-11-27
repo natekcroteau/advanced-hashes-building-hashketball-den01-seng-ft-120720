@@ -7,12 +7,12 @@ def game_hash
   nds[:away] = {}
   
   nds[:home][:team_name] = "Brooklyn Nets"
-  nds[:home][:colors] = []
+  nds[:home][:colors] = ["black", 'white']
   nds[:home][:players] = []
   
   
   nds[:away][:team_name] = "Charlotte Hornets"
-  nds[:away][:colors] = []
+  nds[:away][:colors] = ['turquoise', 'purple']
   nds[:away][:players] = []
   
   nds[:home][:players][0] = {}
