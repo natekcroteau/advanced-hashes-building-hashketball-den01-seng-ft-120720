@@ -64,7 +64,7 @@ def game_hash
   nds[:home][:players][:blocks] = 11
   nds[:home][:players][:slam_dunks] = 1
   
-  #binding.pry  
+  binding.pry  
   
   nds 
 end
