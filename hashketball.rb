@@ -6,11 +6,11 @@ def game_hash
   nds[:home] = {}
   nds[:away] = {}
   
-  nds[:home][:team_name] = ""
+  nds[:home][:team_name] = "Brooklyn Nets"
   nds[:home][:colors] = []
   nds[:home][:players] = {}
   
-  nds[:away][:team_name] = ""
+  nds[:away][:team_name] = "Charlotte Hornets"
   nds[:away][:colors] = []
   nds[:away][:players] = {}
   
