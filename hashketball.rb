@@ -14,14 +14,14 @@ def game_hash
   nds[:away][:players] = {}
   
   nds[:home][:players][:player_name] = ""
-  nds[:home][:players][:number] = ""
-  nds[:home][:players][:shoe] = ""
-  nds[:home][:players][:points] = ""
-  nds[:home][:players][:rebounds] = ""
-  nds[:home][:players][:assists] = ""
-  nds[:home][:players][:steals] = ""
-  nds[:home][:players][:blocks] = ""
-  nds[:home][:players][:slam_dunks] = ""
+  nds[:home][:players][:number] = 
+  nds[:home][:players][:shoe] = 
+  nds[:home][:players][:points] = 
+  nds[:home][:players][:rebounds] = 
+  nds[:home][:players][:assists] = 
+  nds[:home][:players][:steals] = 
+  nds[:home][:players][:blocks] = 
+  nds[:home][:players][:slam_dunks] = 
   
   
   #binding.pry  
