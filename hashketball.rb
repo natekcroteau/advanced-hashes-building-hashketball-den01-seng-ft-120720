@@ -24,6 +24,15 @@ def game_hash
   nds[:home][:players][:blocks] = 1 
   nds[:home][:players][:slam_dunks] = 1 
   
+  nds[:home][:players][:player_name] = "Reggie Evans"
+  nds[:home][:players][:number] = 30 
+  nds[:home][:players][:shoe] = 14
+  nds[:home][:players][:points] = 12
+  nds[:home][:players][:rebounds] = 12
+  nds[:home][:players][:assists] = 12
+  nds[:home][:players][:steals] = 12
+  nds[:home][:players][:blocks] = 12 
+  nds[:home][:players][:slam_dunks] = 7 
   
   #binding.pry  
   
