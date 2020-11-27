@@ -10,6 +10,7 @@ def game_hash
   nds[:away][:team_name] = ""
   nds[:away][:colors] = []
   nds[:away][:players] = {}
+  nds[:home][:players][:]
   #binding.pry  
   
   nds 
